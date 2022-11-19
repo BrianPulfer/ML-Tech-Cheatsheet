@@ -94,7 +94,7 @@ environment.
 
 ### Docker
 
-[Docker](https://docker.com)...
+[Docker](https://docker.com) allows to emulate a whole operating system.
 
 ## CLI Utilities 👨‍💻
 
