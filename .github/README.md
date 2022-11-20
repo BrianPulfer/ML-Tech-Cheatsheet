@@ -14,7 +14,7 @@ with ML libraries, advanced git and GitHub features, virtualization and so on �
     2. [Pytorch, Lightning and W&Bs](#Pytorch,-Lightning-and-W&Bs)
     3. [albumentations](#albumentations)
     4. [einops](#einops)
-    5. [gradio](#gradio)
+    5. [gradio and streamlit](#gradio-and-streamlit)
 3. [Environments 🌎](#Environments-🌎)
     1. [conda](#conda)
     2. [docker](#docker)
@@ -79,10 +79,10 @@ like ColorJitter, ZoomBlur, Gaussian Noise... are implemented by [albumentations
 Manipulation of tensors (reshaping, concatenating, ...) with [einops](https://github.com/arogozhnikov/einops) is
 extremely intuitive and time-saving.
 
-### gradio
+### gradio and streamlit
 
-To quickly create interactive apps based on trained machine learning models, [gradio](https://gradio.app/) is one of the
-most popular frameworks.
+To quickly create interactive apps based on trained machine learning models, [gradio](https://gradio.app/)
+and [streamlit](https://streamlit.io/) are among the most popular frameworks.
 
 ## Environments 🌎
 
