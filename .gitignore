@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Experiment results
+*.ckpt
+*/wandb
+
 # JetBrains IDES
 .idea/
 
