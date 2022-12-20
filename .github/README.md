@@ -12,9 +12,10 @@ with ML libraries, advanced git and GitHub features, virtualization and so on �
 2. [Machine Learning Libraries 🤖](#Machine-Learning-Libraries-🤖)
     1. [The classics](#The-classics)
     2. [Pytorch, Lightning and W&Bs](#Pytorch,-Lightning-and-W&Bs)
-    3. [albumentations](#albumentations)
-    4. [einops](#einops)
-    5. [gradio and streamlit](#gradio-and-streamlit)
+    3. [DeepSpeed](#DeepSpeed)
+    4. [albumentations](#albumentations)
+    5. [einops](#einops)
+    6. [gradio and streamlit](#gradio-and-streamlit)
 3. [Environments 🌎](#Environments-🌎)
     1. [conda](#conda)
     2. [docker](#docker)
@@ -68,6 +69,10 @@ a single place.
 [PyTorch Lightning](https://www.pytorchlightning.ai/) gets rid of most of the usual PyTorch boilerplate code, like
 train/val/test loops, backward and optim steps and so on. It also allows to easily use powerful pytorch features and
 other libraries (like W&B) by inserting just few optional parameters here and there.
+
+### DeepSpeed
+[DeepSpeed](https://www.deepspeed.ai/) allows for distributed high-performance and efficient training. 
+DeepSpeed is [supported in PyTorch Lightning](https://pytorch-lightning.readthedocs.io/en/stable/advanced/model_parallel.html#deepspeed).
 
 ### albumentations
 
