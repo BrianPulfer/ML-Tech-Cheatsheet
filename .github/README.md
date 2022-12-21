@@ -13,9 +13,11 @@ with ML libraries, advanced git and GitHub features, virtualization and so on �
     1. [The classics](#The-classics)
     2. [Pytorch, Lightning and W&Bs](#Pytorch,-Lightning-and-W&Bs)
     3. [DeepSpeed](#DeepSpeed)
-    4. [albumentations](#albumentations)
-    5. [einops](#einops)
-    6. [gradio and streamlit](#gradio-and-streamlit)
+    4. [transformers](#transformers)
+    5. [spaCy](#spaCy)
+    6. [albumentations](#albumentations)
+    7. [einops](#einops)
+    8. [gradio and streamlit](#gradio-and-streamlit)
 3. [Environments 🌎](#Environments-🌎)
     1. [conda](#conda)
     2. [docker](#docker)
@@ -73,6 +75,14 @@ other libraries (like W&B) by inserting just few optional parameters here and th
 ### DeepSpeed
 [DeepSpeed](https://www.deepspeed.ai/) allows for distributed high-performance and efficient training. 
 DeepSpeed is [supported in PyTorch Lightning](https://pytorch-lightning.readthedocs.io/en/stable/advanced/model_parallel.html#deepspeed).
+
+### transformers
+[HuggingFace🤗](https://huggingface.co/) allows to easily download, fine-tune and deploy pre-trained transformer models across a multitude of applications.
+It is also possible to share models and datasets on the platform, as well as "spaces" which are interactive live demos of the capabilities of the created models.
+
+
+### spaCy
+[Spacy](https://spacy.io/) offers a multitude of features and pre-trained pipelines for NLP tasks (like huggingface, but just for NLP).
 
 ### albumentations
 
