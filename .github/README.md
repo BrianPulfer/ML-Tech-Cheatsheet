@@ -33,6 +33,7 @@ with ML libraries, advanced git and GitHub features, virtualization and so on ðŸ
     - [Hidden Directory](#hidden-directory)
     - [GitHub Actions](#github-actions)
     - [GitHub Pages](#github-pages)
+    - [Others](#others)
 
 ## IDEs plugins ðŸ§°
 
@@ -144,11 +145,13 @@ important. Here's a few features to keep in mind.
 
 ### Protected Branches
 
-[Protected branches](https://docs.github.com/en/rest/branches/branch-protection)
+[Protected branches](https://docs.github.com/en/rest/branches/branch-protection) prevent code to be pushed onto custom branches.
 
 ### Tags and Releases
 
-Important commits can be tagged. Then, jumping to a commit is easy as
+Important commits can be [tagged](https://git-scm.com/book/en/v2/Git-Basics-Tagging). Then, jumping to a tagged commit is easy as:
+
+```git checkout $tag-name```
 
 ### LFS
 
@@ -173,3 +176,6 @@ by some events (pull requests, pushes, issues opened, ...).
 ### GitHub Pages
 
 [GitHub Pages](https://docs.github.com/en/pages) allows to host a webpage for each GitHub repository.
+
+### Others
+[GitBook](https://www.gitbook.com/) allows to simply create a documentation starting from a GitHub repository.
