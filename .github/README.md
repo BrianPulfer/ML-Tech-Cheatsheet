@@ -6,31 +6,33 @@ with ML libraries, advanced git and GitHub features, virtualization and so on �
 
 ## Table of Contents 📜
 
-1. [IDEs Plugins 🧰](#IDEs-plugins-🧰)
-    1. [VSCode](#VSCode)
-    2. [PyCharm](#PyCharm)
-2. [Machine Learning Libraries 🤖](#Machine-Learning-Libraries-🤖)
-    1. [The classics](#The-classics)
-    2. [Pytorch, Lightning and W&Bs](#Pytorch,-Lightning-and-W&Bs)
-    3. [DeepSpeed](#DeepSpeed)
-    4. [transformers](#transformers)
-    5. [spaCy](#spaCy)
-    6. [albumentations](#albumentations)
-    7. [einops](#einops)
-    8. [gradio and streamlit](#gradio-and-streamlit)
-3. [Environments 🌎](#Environments-🌎)
-    1. [conda](#conda)
-    2. [docker](#docker)
-4. [CLI Utilities 👨‍💻](#CLI-Utilities-👨‍💻)
-5. [High Performance Computing 🦾](#High-Performance-Computing-🦾)
-    1. [slurm](#slurm)
-6. [Git 🐱](#Git-🐱)
-    1. [Protected Branches](#Protected-Branches)
-    2. [Tags and Releases](#Tags-and-Releases)
-    3. [LFS](#LFS)
-    4. [Hidden Directory](#Hidden-Directory)
-    5. [GitHub Actions](#GitHub-Actions)
-    6. [GitHub Pages](#GitHub-Pages)
+- [ML-Tech-Cheatsheet 📄](#ml-tech-cheatsheet-)
+  - [Table of Contents 📜](#table-of-contents-)
+  - [IDEs plugins 🧰](#ides-plugins-)
+    - [VSCode](#vscode)
+    - [PyCharm](#pycharm)
+  - [Machine Learning Libraries 🤖](#machine-learning-libraries-)
+    - [The classics](#the-classics)
+    - [Pytorch, Lightning and W\&Bs](#pytorch-lightning-and-wbs)
+    - [DeepSpeed](#deepspeed)
+    - [transformers](#transformers)
+    - [spaCy](#spacy)
+    - [albumentations](#albumentations)
+    - [einops](#einops)
+    - [gradio and streamlit](#gradio-and-streamlit)
+  - [Environments 🌎](#environments-)
+    - [conda](#conda)
+    - [Docker](#docker)
+  - [CLI Utilities 👨‍💻](#cli-utilities-)
+  - [High Performance Computing 🦾](#high-performance-computing-)
+    - [slurm](#slurm)
+  - [Git 🐱](#git-)
+    - [Protected Branches](#protected-branches)
+    - [Tags and Releases](#tags-and-releases)
+    - [LFS](#lfs)
+    - [Hidden Directory](#hidden-directory)
+    - [GitHub Actions](#github-actions)
+    - [GitHub Pages](#github-pages)
 
 ## IDEs plugins 🧰
 
@@ -80,6 +82,14 @@ DeepSpeed is [supported in PyTorch Lightning](https://pytorch-lightning.readthed
 [HuggingFace🤗](https://huggingface.co/) allows to easily download, fine-tune and deploy pre-trained transformer models across a multitude of applications.
 It is also possible to share models and datasets on the platform, as well as "spaces" which are interactive live demos of the capabilities of the created models.
 
+Related libraries:
+ - [Datasets](https://pypi.org/project/datasets/) provides efficient loading of custom or common dataset samples (even online).
+ - [Diffusers](https://pypi.org/project/diffusers/) is HuggingFace🤗 package for diffusion models specifically. It comes with pre-trained SOTA model for vision and audio generation.
+ - [Safetensors](https://huggingface.co/docs/safetensors/index) is HuggingFace🤗 package which allows storing tensors in a safe way (unlike with pickle files).
+ - [accelerate](https://pypi.org/project/accelerate/) takes care of automatically finding the best available device for training (PyTorch).
+ - [optimum](https://pypi.org/project/optimum/) provides multiple features to accelerate training and inference
+ - [tokenizers](https://pypi.org/project/tokenizers/) provides features to simply carry-out popular tokenizations.
+ - [evaluate](https://pypi.org/project/evaluate/) allows to evaluate and compare trained models.
 
 ### spaCy
 [Spacy](https://spacy.io/) offers a multitude of features and pre-trained pipelines for NLP tasks (like huggingface, but just for NLP).
