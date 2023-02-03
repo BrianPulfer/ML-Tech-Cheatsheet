@@ -14,9 +14,10 @@ with ML libraries, advanced git and GitHub features, virtualization and so on �
   - [Machine Learning Libraries 🤖](#machine-learning-libraries-)
     - [The classics](#the-classics)
     - [Pytorch, Lightning and W\&Bs](#pytorch-lightning-and-wbs)
-    - [DeepSpeed](#deepspeed)
     - [transformers](#transformers)
+    - [DeepSpeed](#deepspeed)
     - [spaCy](#spacy)
+    - [nvidia-ml-py3](#nvidia-ml-py3)
     - [albumentations](#albumentations)
     - [einops](#einops)
     - [gradio and streamlit](#gradio-and-streamlit)
@@ -75,10 +76,6 @@ a single place.
 train/val/test loops, backward and optim steps and so on. It also allows to easily use powerful pytorch features and
 other libraries (like W&B) by inserting just few optional parameters here and there.
 
-### DeepSpeed
-[DeepSpeed](https://www.deepspeed.ai/) allows for distributed high-performance and efficient training. 
-DeepSpeed is [supported in PyTorch Lightning](https://pytorch-lightning.readthedocs.io/en/stable/advanced/model_parallel.html#deepspeed).
-
 ### transformers
 [HuggingFace🤗](https://huggingface.co/) allows to easily download, fine-tune and deploy pre-trained transformer models across a multitude of applications.
 It is also possible to share models and datasets on the platform, as well as "spaces" which are interactive live demos of the capabilities of the created models.
@@ -92,8 +89,15 @@ Related libraries:
  - [tokenizers](https://pypi.org/project/tokenizers/) provides features to simply carry-out popular tokenizations.
  - [evaluate](https://pypi.org/project/evaluate/) allows to evaluate and compare trained models.
 
+### DeepSpeed
+[DeepSpeed](https://www.deepspeed.ai/) allows for distributed high-performance and efficient training. 
+DeepSpeed is [supported in PyTorch Lightning](https://pytorch-lightning.readthedocs.io/en/stable/advanced/model_parallel.html#deepspeed).
+
 ### spaCy
 [Spacy](https://spacy.io/) offers a multitude of features and pre-trained pipelines for NLP tasks (like huggingface, but just for NLP).
+
+### nvidia-ml-py3
+This (library)[https://pypi.org/project/nvidia-ml-py3/] allows to access information about NVIDIA GPUs directly in python code.
 
 ### albumentations
 
