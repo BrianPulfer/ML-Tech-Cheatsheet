@@ -5,11 +5,11 @@ familiarize
 with ML libraries, advanced git and GitHub features, virtualization and so on 🤓.
 
 ## Table of Contents 📜
-[IDEs plugins 🧰](#ides-plugins-🧰)
+[IDEs plugins 🧰](#ides-plugins)
 - [VSCode](#vscode)
 - [PyCharm](#pycharm)
 
-[Machine Learning Libraries 🤖](#machine-learning-libraries-🤖)
+[Machine Learning Libraries 🤖](#machine-learning-libraries)
 - [The classics](#the-classics)
 - [Pytorch, Lightning and W\&Bs](#pytorch-lightning-and-wbs)
 - [transformers](#transformers)
@@ -20,16 +20,16 @@ with ML libraries, advanced git and GitHub features, virtualization and so on �
 - [einops](#einops)
 - [gradio and streamlit](#gradio-and-streamlit)
   
-[Environments 🌎](#environments-🌎)
+[Environments 🌎](#environments)
   - [conda](#conda)
   - [Docker](#docker)
 
-[CLI Utilities 👨‍💻](#cli-utilities-👨‍💻)
+[CLI Utilities 👨‍💻](#cli-utilities)
 
 [High Performance Computing 🦾](#high-performance-computing-)
 - [slurm](#slurm)
 
-[Git 🐱](#git-🐱)
+[Git 🐱](#git)
 - [Protected Branches](#protected-branches)
 - [Tags and Releases](#tags-and-releases)
 - [LFS](#lfs)
@@ -38,7 +38,7 @@ with ML libraries, advanced git and GitHub features, virtualization and so on �
 - [GitHub Pages](#github-pages)
 - [Others](#others)
 
-## IDEs plugins 🧰
+## IDEs plugins
 
 ### VSCode
 
@@ -58,7 +58,7 @@ with ML libraries, advanced git and GitHub features, virtualization and so on �
 * CoPilot
 * Docker
 
-## Machine Learning Libraries 🤖
+## Machine Learning Libraries
 
 ### The classics
 
@@ -116,7 +116,7 @@ extremely intuitive and time-saving.
 To quickly create interactive apps based on trained machine learning models, [gradio](https://gradio.app/)
 and [streamlit](https://streamlit.io/) are among the most popular frameworks.
 
-## Environments 🌎
+## Environments
 
 ### conda
 
@@ -128,7 +128,7 @@ environment.
 
 [Docker](https://docker.com) allows to emulate a whole operating system.
 
-## CLI Utilities 👨‍💻
+## CLI Utilities
 
 * `~/.ssh/config` and `~/.ssh/authorized_keys` files to define known host names and authorized ssh keys.
 * `nvidia-smi` ➡️ Check NVIDIA Cards current status
@@ -145,7 +145,7 @@ HPC clusters typically use a cluster management and job scheduling tool. [Slurm]
 schedule jobs, handle priorities, design partitions and much more. Cheatsheet files for slurm are under
 the [/slurm ](/slurm) folder.
 
-## Git 🐱
+## Git
 
 Taking the time to go through most of [GitHub's Documentation](https://docs.github.com/) at least once is very
 important. Here's a few features to keep in mind.
