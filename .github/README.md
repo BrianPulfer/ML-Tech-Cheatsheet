@@ -5,36 +5,38 @@ familiarize
 with ML libraries, advanced git and GitHub features, virtualization and so on 🤓.
 
 ## Table of Contents 📜
+[IDEs plugins 🧰](#ides-plugins-🧰)
+- [VSCode](#vscode)
+- [PyCharm](#pycharm)
 
-- [ML-Tech-Cheatsheet 📄](#ml-tech-cheatsheet-)
-  - [Table of Contents 📜](#table-of-contents-)
-  - [IDEs plugins 🧰](#ides-plugins-)
-    - [VSCode](#vscode)
-    - [PyCharm](#pycharm)
-  - [Machine Learning Libraries 🤖](#machine-learning-libraries-)
-    - [The classics](#the-classics)
-    - [Pytorch, Lightning and W\&Bs](#pytorch-lightning-and-wbs)
-    - [transformers](#transformers)
-    - [DeepSpeed](#deepspeed)
-    - [spaCy](#spacy)
-    - [nvidia-ml-py3](#nvidia-ml-py3)
-    - [albumentations](#albumentations)
-    - [einops](#einops)
-    - [gradio and streamlit](#gradio-and-streamlit)
-  - [Environments 🌎](#environments-)
-    - [conda](#conda)
-    - [Docker](#docker)
-  - [CLI Utilities 👨‍💻](#cli-utilities-)
-  - [High Performance Computing 🦾](#high-performance-computing-)
-    - [slurm](#slurm)
-  - [Git 🐱](#git-)
-    - [Protected Branches](#protected-branches)
-    - [Tags and Releases](#tags-and-releases)
-    - [LFS](#lfs)
-    - [Hidden Directory](#hidden-directory)
-    - [GitHub Actions](#github-actions)
-    - [GitHub Pages](#github-pages)
-    - [Others](#others)
+[Machine Learning Libraries 🤖](#machine-learning-libraries-🤖)
+- [The classics](#the-classics)
+- [Pytorch, Lightning and W\&Bs](#pytorch-lightning-and-wbs)
+- [transformers](#transformers)
+- [DeepSpeed](#deepspeed)
+- [spaCy](#spacy)
+- [nvidia-ml-py3](#nvidia-ml-py3)
+- [albumentations](#albumentations)
+- [einops](#einops)
+- [gradio and streamlit](#gradio-and-streamlit)
+  
+[Environments 🌎](#environments-🌎)
+  - [conda](#conda)
+  - [Docker](#docker)
+
+[CLI Utilities 👨‍💻](#cli-utilities-👨‍💻)
+
+[High Performance Computing 🦾](#high-performance-computing-)
+- [slurm](#slurm)
+
+[Git 🐱](#git-🐱)
+- [Protected Branches](#protected-branches)
+- [Tags and Releases](#tags-and-releases)
+- [LFS](#lfs)
+- [Hidden Directory](#hidden-directory)
+- [GitHub Actions](#github-actions)
+- [GitHub Pages](#github-pages)
+- [Others](#others)
 
 ## IDEs plugins 🧰
 
@@ -128,11 +130,12 @@ environment.
 
 ## CLI Utilities 👨‍💻
 
-* `nvidia-smi` ➡️ Check NVIDIA Cards current status
-* `ps`, `top`, `htop` ➡️Check currently running processes
-* [`nvitop`](https://github.com/XuehaiPan/nvitop) ➡️Like `nvidia-smi`, but better.
-* [`tmux`](https://github.com/tmux/tmux/wiki) ➡️Terminal multiplexer, allows to easily detach jobs.
 * `~/.ssh/config` and `~/.ssh/authorized_keys` files to define known host names and authorized ssh keys.
+* `nvidia-smi` ➡️ Check NVIDIA Cards current status
+* `ps`, `top`, `htop` ➡️ Check currently running processes
+* [`nvitop`](https://github.com/XuehaiPan/nvitop) ➡️ Like `nvidia-smi`, but better.
+* [`tmux`](https://github.com/tmux/tmux/wiki) ➡️ Terminal multiplexer, allows to easily detach jobs.
+* [Fig](https://fig.io/) ➡️ Intellisense (and much more) for command line commands.
 
 ## High Performance Computing 🦾
 
