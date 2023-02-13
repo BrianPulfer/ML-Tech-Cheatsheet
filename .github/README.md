@@ -99,7 +99,7 @@ DeepSpeed is [supported in PyTorch Lightning](https://pytorch-lightning.readthed
 [Spacy](https://spacy.io/) offers a multitude of features and pre-trained pipelines for NLP tasks (like huggingface, but just for NLP).
 
 ### nvidia-ml-py3
-This (library)[https://pypi.org/project/nvidia-ml-py3/] allows to access information about NVIDIA GPUs directly in python code.
+This [library](https://pypi.org/project/nvidia-ml-py3/) allows to access information about NVIDIA GPUs directly in python code.
 
 ### albumentations
 
