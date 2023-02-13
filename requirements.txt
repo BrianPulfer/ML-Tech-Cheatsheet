@@ -1,0 +1,5 @@
+albumentations
+torch
+torchvision
+pytorch-lightning
+pytest
