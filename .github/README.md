@@ -130,6 +130,12 @@ environment.
 
 ## CLI Utilities
 
+### Terminals
+[Hyper.js](https://hyper.is/) allows for high customization and is available on MacOS, Windows and Linux. Interesting plugins are documented in this nice [repo](https://github.com/bnb/awesome-hyper).
+
+[iTerm2](https://iterm2.com/) is a MacOS only terminal emulator with lots of functionalities.
+
+### Commands and utils
 * `~/.ssh/config` and `~/.ssh/authorized_keys` files to define known host names and authorized ssh keys.
 * `nvidia-smi` ➡️ Check NVIDIA Cards current status
 * `ps`, `top`, `htop` ➡️ Check currently running processes
