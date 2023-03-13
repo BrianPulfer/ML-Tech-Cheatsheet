@@ -135,6 +135,9 @@ environment.
 
 [iTerm2](https://iterm2.com/) is a MacOS only terminal emulator with lots of functionalities.
 
+[Oh My Zsh](https://www.github.com/ohmyzsh/ohmyzsh) is available on Unix-like machines. It provides terminal plug-ins 
+and themes.
+
 ### Commands and utils
 * `~/.ssh/config` and `~/.ssh/authorized_keys` files to define known host names and authorized ssh keys.
 * `nvidia-smi` ➡️ Check NVIDIA Cards current status
