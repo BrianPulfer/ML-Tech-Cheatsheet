@@ -11,15 +11,16 @@
 #SBATCH --partition=gpu_partition     # Partition to be used
 #SBATCH --gpus=4                      # Number of GPUs
 #SBATCH --time=00:05:00               # Time limit days-hrs:min:sec
-#SBATCH --output=template_out.log     # Standard output log
-#SBATCH --error=template_err.log      # Standard error log
+#SBATCH --output=template_out_%j.log     # Standard output log
+#SBATCH --error=template_err_%j.log      # Standard error log
 
+# Log infos
+echo "Running template slurm job "
 pwd; hostname; date
 
-module load python
+# Loading conda environment
+module load Anaconda3
+conda activate env_name
 
-echo "Running template slurm job "
-
-python /src/hello_world_module.py
-
-date
+# Running program
+srun python /src/hello_world_module.py
