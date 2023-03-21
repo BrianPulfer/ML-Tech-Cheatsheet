@@ -1,5 +1,14 @@
 albumentations
 torch
 torchvision
+torchaudio
+torchmetrics
 pytorch-lightning
+wandb
+nvitop
+deepspeed
+transformers
+evaluate
+datasets
+accelerate
 pytest
