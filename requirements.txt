@@ -11,4 +11,5 @@ transformers
 evaluate
 datasets
 accelerate
+tokenizers
 pytest
