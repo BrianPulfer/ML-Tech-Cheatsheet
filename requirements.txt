@@ -1,4 +1,10 @@
 albumentations
+numpy
+pillow
+opencv-python
+pandas
+seaborn
+matplotlib
 torch
 torchvision
 torchaudio
@@ -12,4 +18,5 @@ evaluate
 datasets
 accelerate
 tokenizers
+gym
 pytest
