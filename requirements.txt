@@ -20,3 +20,5 @@ accelerate
 tokenizers
 gym
 pytest
+python-dotenv
+yacs
