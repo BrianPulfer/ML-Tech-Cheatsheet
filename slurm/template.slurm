@@ -22,5 +22,8 @@ pwd; hostname; date
 module load Anaconda3
 conda activate env_name
 
+# Checking GPU availability
+echo "GPU is available: " && python -c 'import torch; print(torch.cuda.is_available())'
+
 # Running program
 srun python /src/hello_world_module.py

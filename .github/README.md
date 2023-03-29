@@ -21,6 +21,7 @@ with ML libraries, advanced git and GitHub features, virtualization and so on ðŸ
 - [gradio and streamlit](#gradio-and-streamlit)
   
 [Environments ðŸŒŽ](#environments)
+  - [libraries](#libraries)
   - [conda](#conda)
   - [Docker](#docker)
 
@@ -117,6 +118,12 @@ To quickly create interactive apps based on trained machine learning models, [gr
 and [streamlit](https://streamlit.io/) are among the most popular frameworks.
 
 ## Environments
+
+### libraries
+
+[python-dotenv](https://github.com/theskumar/python-dotenv) allows to define and read environmental variables from a file.
+
+[yacs](https://github.com/rbgirshick/yacs) allows to manage configurations such as hyperparameters for experiments.
 
 ### conda
 
