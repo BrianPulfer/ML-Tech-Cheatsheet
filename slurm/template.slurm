@@ -19,8 +19,12 @@ echo "Running template slurm job "
 pwd; hostname; date
 
 # Loading conda environment
-module load Anaconda3
-conda activate env_name
+# module load Anaconda3
+# conda activate env_name
+
+# (alternatively)
+source ~/.bashrc
+source activate env_name
 
 # Checking GPU availability
 echo "GPU is available: " && python -c 'import torch; print(torch.cuda.is_available())'
