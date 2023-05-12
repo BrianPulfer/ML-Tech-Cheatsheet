@@ -203,8 +203,7 @@ by some events (pull requests, pushes, issues opened, ...).
 ### Others
 [GitBook](https://www.gitbook.com/) allows to simply create a documentation starting from a GitHub repository.
 
-[Pre-commit](https://pypi.org/project/pre-commit/) allows to create customized pre-commit hooks to, e.g., run formatting or testing before committing.
-
-[Black](https://pypi.org/project/black/) formats Python files compliantly to PEP 8.
-
-[isort](https://pycqa.github.io/isort/) automatically sorts order of import instructions in python files.
+[Pre-commit](https://pypi.org/project/pre-commit/) allows to create customized pre-commit hooks to, e.g., run formatting or testing before committing. Some nice things to include there:
+ - [Black](https://pypi.org/project/black/) formats Python files compliantly to PEP 8.
+ - [isort](https://pycqa.github.io/isort/) automatically sorts order of import instructions in python files.
+ - [flake8](https://flake8.pycqa.org/en/latest/) uses other tools to check for python errors (pyflakes), correct use of PEP conventions and others.
