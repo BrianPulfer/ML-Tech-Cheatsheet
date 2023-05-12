@@ -206,3 +206,5 @@ by some events (pull requests, pushes, issues opened, ...).
 [Pre-commit](https://pypi.org/project/pre-commit/) allows to create customized pre-commit hooks to, e.g., run formatting or testing before committing.
 
 [Black](https://pypi.org/project/black/) formats Python files compliantly to PEP 8.
+
+[isort](https://pycqa.github.io/isort/) automatically sorts order of import instructions in python files.
