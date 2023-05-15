@@ -17,6 +17,7 @@ with ML libraries, advanced git and GitHub features, virtualization and so on ðŸ
 - [spaCy](#spacy)
 - [nvidia-ml-py3](#nvidia-ml-py3)
 - [albumentations](#albumentations)
+- [augly](#augly)
 - [einops](#einops)
 - [gradio and streamlit](#gradio-and-streamlit)
   
@@ -106,6 +107,10 @@ This [library](https://pypi.org/project/nvidia-ml-py3/) allows to access informa
 
 All sorts of popular [image augmentations](https://github.com/albumentations-team/albumentations#list-of-augmentations),
 like ColorJitter, ZoomBlur, Gaussian Noise... are implemented by [albumentations](https://albumentations.ai/).
+
+### augly
+
+[Data augmentation library](https://pypi.org/project/augly/) for text, sound, image and video.
 
 ### einops
 
