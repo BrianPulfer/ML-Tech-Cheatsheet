@@ -1,4 +1,5 @@
 # ML-Tech-Cheatsheet 📄
+<a href="https://github.com/BrianPulfer/ML-Tech-Cheatsheet/stargazers">![GitHub Repo stars](https://img.shields.io/github/stars/BrianPulfer/ML-Tech-Cheatsheet?style=social)</a>
 
 Personal "cheatsheet" repository for my ideal machine learning tech-stack. I use this repository to play around and
 familiarize
