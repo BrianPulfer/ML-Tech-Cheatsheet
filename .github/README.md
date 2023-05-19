@@ -37,6 +37,7 @@ with ML libraries, advanced git and GitHub features, virtualization and so on �
 - [Tags and Releases](#tags-and-releases)
 - [LFS](#lfs)
 - [Hidden Directory](#hidden-directory)
+- [CircleCI](#circle-ci)
 - [GitHub Actions](#github-actions)
 - [GitHub Pages](#github-pages)
 - [Others](#others)
@@ -196,6 +197,10 @@ The `.github` directory allows to keep the landing page of the GitHub repository
 * **[PULL_REQUEST_TEMPLATE.md](PULL_REQUEST_TEMPLATE.md)** ➡️Template for pull requests.
 * **[README.md](README.md)** ➡️Repository's README (i.e. this) file.
 * **[workflows](workflows)** ➡️Directory which contains .yaml files for GitHub actions.
+
+### CircleCI
+
+[CircleCI](https://circleci.com/) hosts CI/CD pipelines and workflows, similarly to [GitHub Actions](https://docs.github.com/en/actions).
 
 ### GitHub Actions
 
