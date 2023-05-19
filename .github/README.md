@@ -37,7 +37,7 @@ with ML libraries, advanced git and GitHub features, virtualization and so on ðŸ
 - [Tags and Releases](#tags-and-releases)
 - [LFS](#lfs)
 - [Hidden Directory](#hidden-directory)
-- [CircleCI](#circle-ci)
+- [CircleCI](#circleci)
 - [GitHub Actions](#github-actions)
 - [GitHub Pages](#github-pages)
 - [Others](#others)
