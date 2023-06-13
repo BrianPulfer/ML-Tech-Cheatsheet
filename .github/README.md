@@ -220,3 +220,4 @@ by some events (pull requests, pushes, issues opened, ...).
  - [autopep8](https://pypi.org/project/autopep8/) allows to automatically format files to be compliant with PEP 8.
  - [isort](https://pycqa.github.io/isort/) automatically sorts order of import instructions in python files.
  - [flake8](https://flake8.pycqa.org/en/latest/) uses other tools to check for python errors (pyflakes), correct use of PEP conventions and others.
+ - [pylint](https://pypi.org/project/pylint/), similarly to flake, analyzes the code and checks for errors without actually running it.
