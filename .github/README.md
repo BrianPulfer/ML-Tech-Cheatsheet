@@ -95,6 +95,7 @@ Related libraries:
  - [tokenizers](https://pypi.org/project/tokenizers/) provides features to simply carry-out popular tokenizations.
  - [evaluate](https://pypi.org/project/evaluate/) allows to evaluate and compare trained models.
  - [peft](https://github.com/huggingface/peft) (Parameter-Efficient Fine-Tuning) provides implementations of algorithms like LORA, which allow to speed up fine-tuning while saving memory consumption.
+ - [xformers](https://huggingface.co/docs/diffusers/optimization/xformers) provides optimized implementation of all operations carried-out in transformers (e.g. Memory Efficient Attention).
 
 ### DeepSpeed
 [DeepSpeed](https://www.deepspeed.ai/) allows for distributed high-performance and efficient training. 
