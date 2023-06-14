@@ -89,6 +89,7 @@ It is also possible to share models and datasets on the platform, as well as "sp
 Related libraries:
  - [Datasets](https://pypi.org/project/datasets/) provides efficient loading of custom or common dataset samples (even online).
  - [Diffusers](https://pypi.org/project/diffusers/) is HuggingFace🤗 package for diffusion models specifically. It comes with pre-trained SOTA model for vision and audio generation.
+ - [timm](https://pypi.org/project/timm/) provides a multitude of image pre-trained and vanilla image models.
  - [Safetensors](https://huggingface.co/docs/safetensors/index) is HuggingFace🤗 package which allows storing tensors in a safe way (unlike with pickle files).
  - [accelerate](https://pypi.org/project/accelerate/) takes care of automatically finding the best available device for training (PyTorch).
  - [optimum](https://pypi.org/project/optimum/) provides multiple features to accelerate training and inference
