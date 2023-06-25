@@ -20,6 +20,7 @@ with ML libraries, advanced git and GitHub features, virtualization and so on ðŸ
 - [albumentations](#albumentations)
 - [augly](#augly)
 - [einops](#einops)
+- [bitsandbytes](#bitsandbytes)
 - [gradio and streamlit](#gradio-and-streamlit)
   
 [Environments ðŸŒŽ](#environments)
@@ -121,6 +122,9 @@ like ColorJitter, ZoomBlur, Gaussian Noise... are implemented by [albumentations
 
 Manipulation of tensors (reshaping, concatenating, ...) with [einops](https://github.com/arogozhnikov/einops) is
 extremely intuitive and time-saving.
+
+### bitsandbytes
+[bitsandbytes](https://pypi.org/project/bitsandbytes/) allow to run training using 8-bit precision. Particularly useful to fine-tune very large models.
 
 ### gradio and streamlit
 
