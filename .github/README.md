@@ -224,6 +224,7 @@ by some events (pull requests, pushes, issues opened, ...).
 [Pre-commit](https://pypi.org/project/pre-commit/) allows to create customized pre-commit hooks to, e.g., run formatting or testing before committing. Some nice things to include there:
  - [Black](https://pypi.org/project/black/) formats Python files compliantly to PEP 8.
  - [autopep8](https://pypi.org/project/autopep8/) allows to automatically format files to be compliant with PEP 8.
+ - [yapf](https://github.com/google/yapf) is like autopep8, but with a search algorithm for the best possible formatting.
  - [isort](https://pycqa.github.io/isort/) automatically sorts order of import instructions in python files.
  - [flake8](https://flake8.pycqa.org/en/latest/) uses other tools to check for python errors (pyflakes), correct use of PEP conventions and others.
  - [pylint](https://pypi.org/project/pylint/), similarly to flake, analyzes the code and checks for errors without actually running it.
