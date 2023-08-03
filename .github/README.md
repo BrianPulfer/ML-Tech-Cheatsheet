@@ -228,3 +228,5 @@ by some events (pull requests, pushes, issues opened, ...).
  - [isort](https://pycqa.github.io/isort/) automatically sorts order of import instructions in python files.
  - [flake8](https://flake8.pycqa.org/en/latest/) uses other tools to check for python errors (pyflakes), correct use of PEP conventions and others.
  - [pylint](https://pypi.org/project/pylint/), similarly to flake, analyzes the code and checks for errors without actually running it.
+
+[Shields.io](https://shields.io/) allows to put neat banner in README files, such as the number of <a href="https://github.com/BrianPulfer/ML-Tech-Cheatsheet" rel="nofollow"><img src="https://img.shields.io/github/stars/BrianPulfer/ML-Tech-Cheatsheet" alt="Downloads" style="max-width: 100%;"></a> of the repository.
