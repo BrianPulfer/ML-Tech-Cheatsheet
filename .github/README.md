@@ -22,6 +22,10 @@ with ML libraries, advanced git and GitHub features, virtualization and so on ðŸ
 - [einops](#einops)
 - [bitsandbytes](#bitsandbytes)
 - [gradio and streamlit](#gradio-and-streamlit)
+
+[Scientific Libraries ](#scientific-libraries)
+- [Hydra](#hydra)
+- [SciencePlots](#scienceplots)
   
 [Environments ðŸŒŽ](#environments)
   - [libraries](#libraries)
@@ -130,6 +134,14 @@ extremely intuitive and time-saving.
 
 To quickly create interactive apps based on trained machine learning models, [gradio](https://gradio.app/)
 and [streamlit](https://streamlit.io/) are among the most popular frameworks.
+
+## Scientific libraries
+### Hydra
+[Hydra](https://hydra.cc/docs/intro/) allows to set multiple configurations smoothly.
+
+### SciencePlots
+[SciencePlots](https://github.com/garrettj403/SciencePlots) allows to plot much nicer plots than classic matplotlib and seaborn.
+
 
 ## Environments
 
