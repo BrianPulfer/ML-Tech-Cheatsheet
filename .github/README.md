@@ -21,7 +21,6 @@ with ML libraries, advanced git and GitHub features, virtualization and so on ü
 - [augly](#augly)
 - [einops](#einops)
 - [bitsandbytes](#bitsandbytes)
-- [gradio and streamlit](#gradio-and-streamlit)
 
 [Scientific Libraries ](#scientific-libraries)
 - [Hydra](#hydra)
@@ -46,6 +45,14 @@ with ML libraries, advanced git and GitHub features, virtualization and so on ü
 - [GitHub Actions](#github-actions)
 - [GitHub Pages](#github-pages)
 - [Others](#others)
+
+[Web development üåê](#web-development)
+- [Prototyping](#prototyping)
+- [Frontend](#frontend)
+- [Backend](#backend)
+- [APIs](#apis)
+- [Database](#database)
+- [Devops](#devops)
 
 ## IDEs plugins
 
@@ -129,11 +136,6 @@ extremely intuitive and time-saving.
 
 ### bitsandbytes
 [bitsandbytes](https://pypi.org/project/bitsandbytes/) allow to run training using 8-bit precision. Particularly useful to fine-tune very large models.
-
-### gradio and streamlit
-
-To quickly create interactive apps based on trained machine learning models, [gradio](https://gradio.app/)
-and [streamlit](https://streamlit.io/) are among the most popular frameworks.
 
 ## Scientific libraries
 ### Hydra
@@ -242,3 +244,35 @@ by some events (pull requests, pushes, issues opened, ...).
  - [pylint](https://pypi.org/project/pylint/), similarly to flake, analyzes the code and checks for errors without actually running it.
 
 [Shields.io](https://shields.io/) allows to put neat banner in README files, such as the number of <a href="https://github.com/BrianPulfer/ML-Tech-Cheatsheet" rel="nofollow"><img src="https://img.shields.io/github/stars/BrianPulfer/ML-Tech-Cheatsheet" alt="Downloads" style="max-width: 100%;"></a> of the repository.
+
+
+## Web development
+I find it extremelly satisfying to build an actual prototype or product out of a Machine Learning project. Here's my favourite options:
+
+### Prototyping
+To quickly create interactive apps based on trained machine learning models, [gradio](https://gradio.app/)
+and [streamlit](https://streamlit.io/) are among the most popular frameworks. While it is easy to prototype using these frameworks, more complex applications are better built with a more complete stack.
+
+### Frontend
+On the frontend, [NextJS](https://nextjs.org/) is one of the most popular frameworks. It builds on top of the [React](https://react.dev/) framework and provides additional functionalities and optimizations.
+[Tailwindcss](https://tailwindcss.com/) allows for easy styling without the need for css style sheets.
+[Chakra-UI](https://chakra-ui.com/) comes with pre-built and nice looking components. It also offers support for dark mode.
+
+### Backend
+Since we are interested in Machine Learning applications, it makes sense to pick a python backend.
+
+[FastAPI](https://fastapi.tiangolo.com/) is a python backend extremelly simple to set-up and highly optimized for speed. [Django](https://www.djangoproject.com/) and [Flask](https://flask.palletsprojects.com/en/2.3.x/) are more popular frameworks. Django is a full-stack meant for big projects with a clearly defined structure, whereas flask is lightweight and meant for smaller projects.
+
+### APIs
+[Auth0](https://auth0.com/) allows for authentication and authorization. [Stripe](https://stripe.com/) is a popular tool to deal with payments.
+
+
+### Database
+[MySQL](https://www.mysql.com/), [PostgreSQL](https://www.postgresql.org/about/), [Redis](https://redis.io/) and [MongoDB](https://www.mongodb.com/it-it) and are all very valid and popular databases.
+
+[PostgreSQL](https://www.postgresql.org/about/) is preferable over [MySQL](https://www.mysql.com/) for its better support for JSON data. [Redis](https://redis.io/) is a key-value database, which is very fast and useful for caching. [MongoDB](https://www.mongodb.com/it-it) is a document-oriented database, which is very flexible and easy to use.
+
+[Prisma](https://www.prisma.io/) is a nodejs database toolkit compatible with MySQL, PostgreSQL, SQLite and SQL server. It allows to easily create and manage databases.
+
+### Devops
+Applications can be hosted on a number of services. [Heroku](https://www.heroku.com/), [DigitalOcean](https://www.digitalocean.com/), [AWS](https://aws.amazon.com/) and [Google Cloud](https://cloud.google.com/) are among the most popular solutions.
