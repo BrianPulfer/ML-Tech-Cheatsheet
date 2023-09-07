@@ -187,7 +187,7 @@ and themes.
 
 HPC clusters typically use a cluster management and job scheduling tool. [Slurm](https://slurm.schedmd.com/) allows to
 schedule jobs, handle priorities, design partitions and much more. Cheatsheet files for slurm are under
-the [/slurm ](/slurm) folder.
+the [/slurm ](/slurm) folder. The library [submitit](https://pypi.org/project/submitit/) allows to switch seamlessly between executing on Slurm or locally.
 
 ## Git
 
