@@ -15,6 +15,7 @@ with ML libraries, advanced git and GitHub features, virtualization and so on ðŸ
 - [Pytorch, Lightning and W\&Bs](#pytorch-lightning-and-wbs)
 - [transformers](#transformers)
 - [DeepSpeed](#deepspeed)
+- [Colossal-AI](#colossal-ai)
 - [spaCy](#spacy)
 - [nvidia-ml-py3](#nvidia-ml-py3)
 - [albumentations](#albumentations)
@@ -113,6 +114,9 @@ Related libraries:
 ### DeepSpeed
 [DeepSpeed](https://www.deepspeed.ai/) allows for distributed high-performance and efficient training. 
 DeepSpeed is [supported in PyTorch Lightning](https://pytorch-lightning.readthedocs.io/en/stable/advanced/model_parallel.html#deepspeed).
+
+### Colossal AI
+[Colossal-AI](https://colossalai.org/) is a framework that improves the efficiency and speed of large model training, especially for HPC clusters.
 
 ### spaCy
 [Spacy](https://spacy.io/) offers a multitude of features and pre-trained pipelines for NLP tasks (like huggingface, but just for NLP).
