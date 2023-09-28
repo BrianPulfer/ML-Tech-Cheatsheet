@@ -280,4 +280,4 @@ Since we are interested in Machine Learning applications, it makes sense to pick
 [Prisma](https://www.prisma.io/) is a nodejs database toolkit compatible with MySQL, PostgreSQL, SQLite and SQL server. It allows to easily create and manage databases.
 
 ### Devops
-Applications can be hosted on a number of services. [Heroku](https://www.heroku.com/), [DigitalOcean](https://www.digitalocean.com/), [AWS](https://aws.amazon.com/) and [Google Cloud](https://cloud.google.com/) are among the most popular solutions.
+Applications can be hosted on a number of services. [Heroku](https://www.heroku.com/), [DigitalOcean](https://www.digitalocean.com/), [AWS](https://aws.amazon.com/), [Google Cloud](https://cloud.google.com/) and [Microsoft Azure](https://azure.microsoft.com/en-us) are among the most popular solutions.
