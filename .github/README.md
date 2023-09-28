@@ -256,7 +256,7 @@ I find it extremelly satisfying to build an actual prototype or product out of a
 
 ### Prototyping
 To quickly create interactive apps based on trained machine learning models, [gradio](https://gradio.app/)
-and [streamlit](https://streamlit.io/) are among the most popular frameworks. While it is easy to prototype using these frameworks, more complex applications are better built with a more complete stack.
+and [streamlit](https://streamlit.io/) are among the most popular frameworks. While it is easy to prototype using these frameworks, more complex applications are better built with a more complete stack. [Figma](https://www.figma.com/) is currently the best tool I could find to design an app / website.
 
 ### Frontend
 On the frontend, [NextJS](https://nextjs.org/) is one of the most popular frameworks. It builds on top of the [React](https://react.dev/) framework and provides additional functionalities and optimizations.
