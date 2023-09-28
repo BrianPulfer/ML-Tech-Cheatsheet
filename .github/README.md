@@ -181,6 +181,7 @@ and themes.
 * `~/.ssh/config` and `~/.ssh/authorized_keys` files to define known host names and authorized ssh keys.
 * `nvidia-smi` ➡️ Check NVIDIA Cards current status
 * `ps`, `top`, `htop` ➡️ Check currently running processes
+* [`bpytop`](https://github.com/aristocratos/bpytop) - Like `htop`, but better.
 * [`nvitop`](https://github.com/XuehaiPan/nvitop) ➡️ Like `nvidia-smi`, but better.
 * [`tmux`](https://github.com/tmux/tmux/wiki) ➡️ Terminal multiplexer, allows to easily detach jobs.
 * [Fig](https://fig.io/) ➡️ Intellisense (and much more) for command line commands.
