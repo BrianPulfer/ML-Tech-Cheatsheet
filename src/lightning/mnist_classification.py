@@ -52,7 +52,7 @@ class MNISTClassificationTask(pl.LightningModule):
         self.scheduler = scheduler_fn(self.optimizer)
 
         self.loss = nn.CrossEntropyLoss()
-        self.accuracy = Accuracy()
+        self.accuracy = Accuracy("multiclass", num_classes=10)
 
     def forward(self, x):
         return self.model(x)
@@ -184,7 +184,7 @@ def main():
         log_model="all"
     )
     trainer = Trainer(
-        logger,
+        logger=logger,
         max_epochs=args["optimization"]["epochs"],
         strategy=args["optimization"]["strategy"],
         num_nodes=args["optimization"]["num_nodes"],
