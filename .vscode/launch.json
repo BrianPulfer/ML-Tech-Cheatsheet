@@ -14,6 +14,12 @@
             "args": [
                 "${workspaceFolder}/src/configurations/mnist_default_conf.json",
             ] 
+        },
+        {
+            "name": "CUDA MatMul Example",
+            "type": "cuda-gdb",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/cuda/matmul",
         }
     ]
 }
