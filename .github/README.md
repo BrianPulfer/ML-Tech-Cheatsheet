@@ -269,7 +269,7 @@ Since we are interested in Machine Learning applications, it makes sense to pick
 [FastAPI](https://fastapi.tiangolo.com/) is a python backend extremelly simple to set-up and highly optimized for speed. [Django](https://www.djangoproject.com/) and [Flask](https://flask.palletsprojects.com/en/2.3.x/) are more popular frameworks. Django is a full-stack meant for big projects with a clearly defined structure, whereas flask is lightweight and meant for smaller projects.
 
 ### APIs
-[Auth0](https://auth0.com/) allows for authentication and authorization. [Stripe](https://stripe.com/) is a popular tool to deal with payments.
+[Auth0](https://auth0.com/) allows for authentication and authorization. [Stripe](https://stripe.com/) is a popular tool to deal with payments. Testing APIs is easily done with [Postman](https://www.postman.com/).
 
 
 ### Database
@@ -281,3 +281,19 @@ Since we are interested in Machine Learning applications, it makes sense to pick
 
 ### Devops
 Applications can be hosted on a number of services. [Heroku](https://www.heroku.com/), [DigitalOcean](https://www.digitalocean.com/), [AWS](https://aws.amazon.com/), [Google Cloud](https://cloud.google.com/) and [Microsoft Azure](https://azure.microsoft.com/en-us) are among the most popular solutions.
+
+
+
+## Bonus 🎁
+
+Here's a few things that are not really ML-related but that I use in my work environment and find that need to be mentioned.
+
+[Gnome-look.org](https://www.gnome-look.org) offers a variety of themes for Linux machines. My personal favourite is the [orchit gtk theme](https://www.gnome-look.org/p/1357889).
+
+[Iriun](https://iriun.com/) allows to use an iPhone or iPad as a webcam for a Linux or Windows machine, while [UxPlay](https://github.com/antimof/UxPlay) allows to do screen-mirroring of iPhone and iPad devices. Both are super useful for presentations, meetings, recording videos and so on.
+
+[Notion](https://notion.so) is possibly the best note-taking app out there. Full stop.
+
+[Clockify](https://clockify.me/) allows you to track the time spent on different projects. It is useful to stay aware of your productivity.
+
+A few very helpful chrome extensions are: [NordPass](https://nordpass.com), [Acrobat Reader](https://chrome.google.com/webstore/detail/adobe-acrobat-pdf-edit-co/efaidnbmnnnibpcajpcglclefindmkaj), and [Grammarly](https://www.grammarly.com/grammar-check).
