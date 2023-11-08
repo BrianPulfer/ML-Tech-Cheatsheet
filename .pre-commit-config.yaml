@@ -14,3 +14,7 @@ repos:
     rev: 5.12.0
     hooks:
     -   id: isort
+-   repo: https://github.com/astral-sh/ruff
+    rev: 0.1.4
+    hooks:
+    -   id: ruff
