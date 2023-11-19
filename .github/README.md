@@ -288,9 +288,11 @@ Applications can be hosted on a number of services. [Heroku](https://www.heroku.
 
 ## Bonus 🎁
 
-Here's a few things that are not really ML-related but that I use in my work environment and find that need to be mentioned.
+Here's a few things that are not really ML-related but that I use in my work environment and find that are worth mentioning.
 
 [Gnome-look.org](https://www.gnome-look.org) offers a variety of themes for Linux machines. My personal favourite is the [orchit gtk theme](https://www.gnome-look.org/p/1357889).
+
+Window managers allow to customize the look and feel of the desktop environment while making development more efficient (the idea is that you should never take your hands off the keyboard). I use [i3](https://i3wm.org/), which is one of the most popular window managers for Linux.
 
 [Iriun](https://iriun.com/) allows to use an iPhone or iPad as a webcam for a Linux or Windows machine, while [UxPlay](https://github.com/antimof/UxPlay) allows to do screen-mirroring of iPhone and iPad devices. Both are super useful for presentations, meetings, recording videos and so on.
 
