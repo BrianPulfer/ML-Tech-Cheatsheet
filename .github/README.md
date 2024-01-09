@@ -157,6 +157,8 @@ extremely intuitive and time-saving.
 
 [yacs](https://github.com/rbgirshick/yacs) allows to manage configurations such as hyperparameters for experiments.
 
+[poetry](https://python-poetry.org) allows for easy dependency management and packaging.
+
 ### conda
 
 [Conda](https://conda.io/) allows to easily create and share virtual environments. The
