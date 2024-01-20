@@ -13,6 +13,7 @@ with ML libraries, advanced git and GitHub features, virtualization and so on ðŸ
 [Machine Learning Libraries ðŸ¤–](#machine-learning-libraries)
 - [The classics](#the-classics)
 - [Pytorch, Lightning and W\&Bs](#pytorch-lightning-and-wbs)
+- [xformers](#xformers)
 - [transformers](#transformers)
 - [DeepSpeed](#deepspeed)
 - [Colossal-AI](#colossal-ai)
@@ -22,6 +23,8 @@ with ML libraries, advanced git and GitHub features, virtualization and so on ðŸ
 - [augly](#augly)
 - [einops](#einops)
 - [bitsandbytes](#bitsandbytes)
+- [vLLM](#vllm)
+- [SkyPilot](#skypilot)
 
 [Scientific Libraries ](#scientific-libraries)
 - [Hydra](#hydra)
@@ -95,6 +98,9 @@ a single place.
 train/val/test loops, backward and optim steps and so on. It also allows to easily use powerful pytorch features and
 other libraries (like W&B) by inserting just few optional parameters here and there.
 
+### xformers
+[xformers](https://github.com/facebookresearch/xformers) allows you to define transformer architecture easily. It also features the latest and hottest techniques.
+
 ### transformers
 [HuggingFaceðŸ¤—](https://huggingface.co/) allows to easily download, fine-tune and deploy pre-trained transformer models across a multitude of applications.
 It is also possible to share models and datasets on the platform, as well as "spaces" which are interactive live demos of the capabilities of the created models.
@@ -140,6 +146,12 @@ extremely intuitive and time-saving.
 
 ### bitsandbytes
 [bitsandbytes](https://pypi.org/project/bitsandbytes/) allow to run training using 8-bit precision. Particularly useful to fine-tune very large models.
+
+### vllm
+[vllm](https://github.com/vllm-project/vllm) is a high-level library to efficiently run inference of LLMs.
+
+### skypilot
+[skypilot](https://github.com/skypilot-org/skypilot) allows to easily run inference of LLM and more on any cloud platform (Google, AWS, Azure, ...).
 
 ## Scientific libraries
 ### Hydra
