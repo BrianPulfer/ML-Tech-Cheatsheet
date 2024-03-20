@@ -24,5 +24,6 @@ torchaudio
 torchmetrics
 torchvision
 transformers
+typer
 wandb
 yacs
