@@ -6,6 +6,7 @@ deepspeed
 einops
 evaluate
 gym
+hydra-core
 matplotlib
 numpy
 nvitop
