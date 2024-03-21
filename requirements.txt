@@ -21,6 +21,7 @@ pre-commit
 SciencePlots
 seaborn
 stable-baselines
+timm
 tokenizers
 torch
 torchaudio
