@@ -21,7 +21,8 @@ jobs:
         echo $CONDA/bin >> $GITHUB_PATH
     - name: Install dependencies
       run: |
-        apt-get update && apt-get install cmake libopenmpi-dev python3-dev zlib1g-dev
+        apt update && apt install sudo
+        sudo apt-get update && sudo apt-get install cmake libopenmpi-dev python3-dev zlib1g-dev
         pip install -r requirements.txt
     - name: Test with pytest
       run: |
