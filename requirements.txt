@@ -5,7 +5,7 @@ datasets
 deepspeed
 einops
 evaluate
-gym
+gymnasium
 hydra-core
 matplotlib
 numpy
@@ -13,11 +13,14 @@ nvitop
 opencv-python
 pandas
 pillow
+ptpython
 pytest
 python-dotenv
 pytorch-lightning
 pre-commit
+SciencePlots
 seaborn
+stable-baselines
 tokenizers
 torch
 torchaudio
