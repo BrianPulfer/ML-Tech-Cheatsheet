@@ -30,4 +30,5 @@ torchvision
 transformers
 typer
 wandb
+xformers
 yacs
