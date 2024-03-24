@@ -155,7 +155,7 @@ extremely intuitive and time-saving.
 
 ## Scientific libraries
 ### Hydra
-[Hydra](https://hydra.cc/docs/intro/) allows to set multiple configurations smoothly.
+[Hydra](https://hydra.cc/docs/intro/) allows to set multiple configurations smoothly as well as defining custom CLI commands. Similar to [jsonargpase](https://github.com/omni-us/jsonargparse/) and [LightningCLI](https://lightning.ai/docs/pytorch/stable/api/lightning.pytorch.cli.LightningCLI.html)
 
 ### SciencePlots
 [SciencePlots](https://github.com/garrettj403/SciencePlots) allows to plot much nicer plots than classic matplotlib and seaborn.
