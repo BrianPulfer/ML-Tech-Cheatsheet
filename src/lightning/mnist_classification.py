@@ -230,6 +230,7 @@ def main():
         strategy=args["optimization"]["strategy"],
         num_nodes=args["optimization"]["num_nodes"],
         deterministic=True,
+        profiler='simple',
         callbacks=[
             ModelCheckpoint(
                 dirpath=args["optimization"]["callbacks"]["ModelCheckpoint"]["dirpath"],
