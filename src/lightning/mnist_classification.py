@@ -93,6 +93,7 @@ class MNISTClassificationTask(pl.LightningModule):
 
     def __init__(self, model=None, lr=0.001):
         super(MNISTClassificationTask, self).__init__()
+        self.save_hyperparameters()
 
         # Attributes
         self.model = ConvModel() if model is None else model
