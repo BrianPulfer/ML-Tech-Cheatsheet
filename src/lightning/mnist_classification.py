@@ -222,6 +222,7 @@ def main():
         save_dir=args["logger"]["save_dir"],
         log_model="all",
     )
+    logger.watch(model)
     trainer = Trainer(
         logger=logger,
         max_epochs=args["optimization"]["epochs"],
