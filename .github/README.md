@@ -193,6 +193,8 @@ and themes.
 
 [tmate](https://tmate.io/) allows to connect via SSH to custom machine not "out in the internet". A sort of TeamViewer for ssh.
 
+[rich](https://github.com/Textualize/rich) is a library to create amazing looking CLIs.
+
 ### Commands and utils
 * `~/.ssh/config` and `~/.ssh/authorized_keys` files to define known host names and authorized ssh keys.
 * `nvidia-smi` ➡️ Check NVIDIA Cards current status
