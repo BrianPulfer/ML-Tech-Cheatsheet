@@ -191,6 +191,8 @@ environment.
 [Oh My Zsh](https://www.github.com/ohmyzsh/ohmyzsh) is available on Unix-like machines. It provides terminal plug-ins 
 and themes.
 
+[tmate](https://tmate.io/) allows to connect via SSH to custom machine not "out in the internet". A sort of TeamViewer for ssh.
+
 ### Commands and utils
 * `~/.ssh/config` and `~/.ssh/authorized_keys` files to define known host names and authorized ssh keys.
 * `nvidia-smi` ➡️ Check NVIDIA Cards current status
