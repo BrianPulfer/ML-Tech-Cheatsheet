@@ -184,6 +184,8 @@ environment.
 ## CLI Utilities
 
 ### Terminals
+[Alacritty](https://alacritty.org/) is among the most popular terminals in [r/unixporn](https://reddit.com/r/unixporn) and is compatible with all OSs.
+
 [Hyper.js](https://hyper.is/) allows for high customization and is available on MacOS, Windows and Linux. Interesting plugins are documented in this nice [repo](https://github.com/bnb/awesome-hyper).
 
 [iTerm2](https://iterm2.com/) is a MacOS only terminal emulator with lots of functionalities.
@@ -203,6 +205,7 @@ and themes.
 * [`nvitop`](https://github.com/XuehaiPan/nvitop) ➡️ Like `nvidia-smi`, but better.
 * [`tmux`](https://github.com/tmux/tmux/wiki) ➡️ Terminal multiplexer, allows to easily detach jobs.
 * [Fig](https://fig.io/) ➡️ Intellisense (and much more) for command line commands.
+* [sshfs](https://github.com/libfuse/sshfs) ➡️ allows to mount file systems over ssh.
 
 ## High Performance Computing 🦾
 
