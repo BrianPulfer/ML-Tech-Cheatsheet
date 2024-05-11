@@ -27,6 +27,7 @@ pre-commit
 ruff
 SciencePlots
 seaborn
+sentencepiece
 stable-baselines
 timm
 tokenizers
