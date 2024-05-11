@@ -15,6 +15,7 @@ lightning[pytorch-extra]
 matplotlib
 numpy
 nvitop
+openai
 opencv-python
 pandas
 peft
