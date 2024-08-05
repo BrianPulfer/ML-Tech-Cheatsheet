@@ -7,6 +7,7 @@ diffusers
 deepspeed
 einops
 evaluate
+flash-attn
 gymnasium
 hydra-core
 jsonargparse
