@@ -197,6 +197,8 @@ and themes.
 
 [rich](https://github.com/Textualize/rich) is a library to create amazing looking CLIs.
 
+[yabai](https://github.com/koekeishiya/yabai) together with [skhd](https://www.github.com/koekeishiya/skhd) allows to have a nice window manager experience on MacOS.
+
 ### Commands and utils
 * `~/.ssh/config` and `~/.ssh/authorized_keys` files to define known host names and authorized ssh keys.
 * `nvidia-smi` ➡️ Check NVIDIA Cards current status
