@@ -184,20 +184,17 @@ environment.
 ## CLI Utilities
 
 ### Terminals
-[Alacritty](https://alacritty.org/) is among the most popular terminals in [r/unixporn](https://reddit.com/r/unixporn) and is compatible with all OSs.
+[Hyper.js](https://hyper.is/), [Alacritty](https://alacritty.org/) and [Kitty](https://sw.kovidgoyal.net/kitty/) among the most popular terminals in [r/unixporn](https://reddit.com/r/unixporn) and are compatible with all OSs.
 
-[Hyper.js](https://hyper.is/) allows for high customization and is available on MacOS, Windows and Linux. Interesting plugins are documented in this nice [repo](https://github.com/bnb/awesome-hyper).
+[iTerm2](https://iterm2.com/) is a MacOS-only terminal emulator with lots of functionalities.
 
-[iTerm2](https://iterm2.com/) is a MacOS only terminal emulator with lots of functionalities.
-
-[Oh My Zsh](https://www.github.com/ohmyzsh/ohmyzsh) is available on Unix-like machines. It provides terminal plug-ins 
-and themes.
+[Oh My Zsh](https://www.github.com/ohmyzsh/ohmyzsh) is available on Unix-like machines. It provides terminal plug-ins and themes.
 
 [tmate](https://tmate.io/) allows to connect via SSH to custom machine not "out in the internet". A sort of TeamViewer for ssh.
 
 [rich](https://github.com/Textualize/rich) is a library to create amazing looking CLIs.
 
-[yabai](https://github.com/koekeishiya/yabai) together with [skhd](https://www.github.com/koekeishiya/skhd) allows to have a nice window manager experience on MacOS.
+[yabai](https://github.com/koekeishiya/yabai) together with [skhd](https://www.github.com/koekeishiya/skhd) allows to have a nice window manager-like experience on MacOS.
 
 ### Commands and utils
 * `~/.ssh/config` and `~/.ssh/authorized_keys` files to define known host names and authorized ssh keys.
@@ -208,6 +205,7 @@ and themes.
 * [`tmux`](https://github.com/tmux/tmux/wiki) ➡️ Terminal multiplexer, allows to easily detach jobs.
 * [Fig](https://fig.io/) ➡️ Intellisense (and much more) for command line commands.
 * [sshfs](https://github.com/libfuse/sshfs) ➡️ allows to mount file systems over ssh.
+* [ranger](https://github.com/ranger/ranger) ➡️ CLI browser with possible image preview on terminals like `kitty` and installing `w3m`.
 
 ## High Performance Computing 🦾
 
