@@ -171,6 +171,8 @@ extremely intuitive and time-saving.
 
 [poetry](https://python-poetry.org) allows for easy dependency management and packaging.
 
+[uv](https://docs.astral.sh/uv/) is similar to poetry, but uses python's virtual environments.
+
 ### conda
 
 [Conda](https://conda.io/) allows to easily create and share virtual environments. The
